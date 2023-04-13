@@ -1,0 +1,237 @@
+.link-container-jobs-list-page {
+  text-decoration: none;
+  background-color: #272727;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.list-item-jobs-list-page {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 98%;
+}
+
+.company-logo-container-jobs-list-page {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo-jobs-list-container {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .company-logo-jobs-list-container {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.company-title-container-jobs-list-page {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.company-title-jobs-list-page {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 400px) {
+  .company-title-jobs-list-page {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .company-title-jobs-list-page {
+    font-size: 30px;
+  }
+}
+
+.company-rating-container-jobs-list-page {
+  display: flex;
+  align-items: center;
+}
+
+.rating-icon-jobs-list-page {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  color: gold;
+}
+
+@media screen and (max-width: 400px) {
+  .rating-icon-jobs-list-page {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.rating-jobs-list-page {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .rating-jobs-list-page {
+    font-size: 18px;
+  }
+}
+
+.salary-job-type-location-container-jobs-list-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  .salary-job-type-location-container-jobs-list-page {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+}
+
+.location-job-type-container-jobs-list-page {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .location-job-type-container-jobs-list-page {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.location-container-jobs-list-page {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 400px) {
+  .location-container-jobs-list-page {
+    margin-right: 0px;
+  }
+}
+
+.location-icon-jobs-list-page {
+  color: #f1f5f9;
+  height: 25px;
+  width: 25px;
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 400px) {
+  .location-icon-jobs-list-page {
+    height: 20px;
+    width: 20px;
+    margin-left: 0px;
+  }
+}
+
+.location-jobs-list-page {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 3px;
+}
+
+@media screen and (max-width: 400px) {
+  .location-jobs-list-page {
+    font-size: 12px;
+  }
+}
+
+.job-type-container-jobs-list-page {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 400px) {
+  .job-type-container-jobs-list-page {
+    margin-left: 0px;
+  }
+}
+
+.brief-icon-jobs-list-page {
+  color: #f1f5f9;
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .brief-icon-jobs-list-page {
+    height: 20px;
+    width: 20px;
+    margin-left: 0px;
+  }
+}
+
+.job-type-jobs-list-page {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .job-type-jobs-list-page {
+    font-size: 12px;
+  }
+}
+
+.package-jobs-list-page {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .package-jobs-list-page {
+    font-size: 20px;
+  }
+}
+
+.hr-line-jobs-list-page {
+  width: 100%;
+  border: 2px solid #b6c5ff;
+}
+
+.description-heading-jobs-list-page {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.description-jobs-list-page {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 1.5;
+}

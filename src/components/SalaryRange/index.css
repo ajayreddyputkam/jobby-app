@@ -1,0 +1,22 @@
+.salary-list-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.salary-input-item {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.salary-label-item {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  cursor: pointer;
+}

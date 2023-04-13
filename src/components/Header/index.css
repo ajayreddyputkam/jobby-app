@@ -1,0 +1,145 @@
+.header-bg-container {
+  background-color: #272727;
+  width: 100%;
+  padding: 10px;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-header-container {
+    width: 98%;
+  }
+}
+
+.header-logo {
+  width: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    width: 120px;
+  }
+}
+
+.list-header-lg-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .list-header-lg-container {
+    display: flex;
+    padding-left: 0px;
+    align-items: center;
+  }
+}
+
+.home-lg-text-header {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.jobs-lg-text-header {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.logout-header {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4f46e5;
+    border: none;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+}
+
+.list-header-sm-container {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .list-header-sm-container {
+    display: none;
+  }
+}
+
+.list-item-home-header {
+  list-style-type: none;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.home-icon-header {
+  color: #ffffff;
+  height: 25px;
+  width: 25px;
+}
+
+.list-item-brief-header {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.breif-icon-header {
+  color: #ffffff;
+  height: 25px;
+  width: 25px;
+}
+
+.list-item-logout-header {
+  list-style-type: none;
+  margin-left: 3px;
+}
+
+.logout-icon-button-header {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.logout-icon-header {
+  color: #ffffff;
+  height: 25px;
+  width: 25px;
+}
+
+.link-item-header {
+  text-decoration: none;
+}
